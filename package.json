@@ -1,0 +1,22 @@
+{
+  "name": "saturnin-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "install": "node-gyp rebuild",
+    "build": "node-gyp rebuild",
+    "clean": "node-gyp clean"
+  },
+  "author": "",
+  "license": "ISC",
+  "gypfile": true,
+  "description": "",
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "crypto": "^1.0.1",
+    "microtime": "^3.1.1",
+    "node-addon-api": "^3.2.1",
+    "node-gyp": "^10.2.0",
+    "node-pre-gyp": "^0.17.0"
+  }
+}
